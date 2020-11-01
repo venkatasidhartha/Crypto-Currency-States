@@ -1,4 +1,4 @@
-# Crypto-Currency-States
+# Crypto-Currency-Status
 
 Install Requests && Prettytable Module
 pip3 install requests

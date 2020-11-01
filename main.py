@@ -18,7 +18,7 @@ def cryptoCurrency():
         priceUsd.append(dict["priceUsd"])
         changePercent24Hr.append(dict["changePercent24Hr"])
 
-    Columns = ["Rank", "Name", "Price", "Percentage"]
+    Columns = ["Rank", "Name", "Price in Dollers", "Change Percent 24Hr"]
     myTable = PrettyTable()
     myTable.add_column(Columns[0],rank)
     myTable.add_column(Columns[1],id)
